@@ -1,0 +1,70 @@
+* Mogram 
+movie recommender system
+user
+movies
+features
+  
+
+* (in)formal definition
+The movie recommendation system is a system that can recommend movies based on various features
+displayed to the user or randomly. 
+
+
+** detail 
+The user can select from those features (input), or if they haven't 
+specified a particular feature, the system randomly recommends a movie with brief descriptions
+of its features (output) to the user. Therefore, the user can view the recommended movie features
+by the system and, if satisfied, the system's task is complete; otherwise, the user can view the 
+next movie by selecting the “next option”.
+
+
+* mathematical expression: 
+The movie recommendation system(MRS) is a system that can recommend(R) movies(M) based on various features(F)
+displayed(D) to the user(U) or randomly(RAND). 
+MRS = {M,U,F}
+
+
+* Symbol Table 
+Symbol      meaning 
+------      --------
+*           comment
+MRS         movie recommendation system
+R           recommend
+M           movies
+F           features
+D           display
+U           user
+RAND        randomly
+#           the object is countable 
+#?          the countablity is unknown
+?           vagueness
+==          interaction 
+!==         there is no interaction
+$           to be completed
+
+
+
+* Counting: Countable or uncountable
+The movie recommendation system(MRS : #) is a system that can recommend(R : #?) movies(M : #) based on
+various features(F : #) displayed(D : #?) to the user(U : #) or randomly(RAND : #?). 
+
+
+** numerical domain for each symbol (mogram)
+
+MRS : 1 - ?
+U : 1 - N : N in Natural Number
+M : 1 - N 
+F : ? - 9 - ?
+
+* Interaction(s)
+MRS = {M,U,F}
+ - some elements have at least one Interaction with another element in MRS. 
+ - ? 
+    example: 
+        MRS == U
+        U !== U
+        
+
+$** Semantics: 
+    structure: <mogram> == <mogram> ... == <mogram>: order of the mograms are not important. 
+    concept: if <mogram_1> == <mogram_2>, then there is a message passing between mograms. 
